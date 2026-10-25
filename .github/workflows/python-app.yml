@@ -24,7 +24,7 @@ jobs:
       - name: Run script
         run: |
           # 注意：这里需要填写你真实的主程序路径，如果是 src/main.py 就写这个
-          python src/main.py 
+          python run_pipeline.py 
 
       - name: Upload PDF/Result
         uses: actions/upload-artifact@v4
